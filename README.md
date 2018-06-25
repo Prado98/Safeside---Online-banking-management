@@ -6,11 +6,12 @@ SafeSide is an Online Banking Management System with a ton of features like Fund
 
 1. Create a Firebase Account and create a new Project. 
 2. Clone this repository.
-3. Open the terminal and enter the repository folder `cd SafeSide-Online-banking-Management`
-4. `cd functions`
-5. `npm install`
-6. `npm run start` will start the server on your system.
-7. Go to `locahost:8000`on your browser to view the application.
+3. Copy down the service account key for the firebase project and paste it in 'functions/seceret.json' and also in '/public/js/app.js'.
+4. Open the terminal and enter the repository folder `cd SafeSide-Online-banking-Management`
+5. `cd functions`
+6. `npm install`
+7. `npm run start` will start the server on your system.
+8. Go to `locahost:8000`on your browser to view the application.
 
 ### Prerequisites
 
