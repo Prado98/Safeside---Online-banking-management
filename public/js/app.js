@@ -1,11 +1,12 @@
 var xhttp = new XMLHttpRequest();
 var config = {
-    apiKey: "AIzaSyB9SU9h9myh6hg1cQet_5MFB7Dy9-8EPTU",
-    authDomain: "safe-side-project.firebaseapp.com",
-    databaseURL: "https://safe-side-project.firebaseio.com",
-    projectId: "safe-side-project",
-    storageBucket: "safe-side-project.appspot.com",
-    messagingSenderId: "178491336655"
+    /*
+    *
+    *
+    FIREBASE SERVICE ACCOUNT KEY
+    *
+    *
+    */
   };
   firebase.initializeApp(config);
 var db = firebase.firestore();
